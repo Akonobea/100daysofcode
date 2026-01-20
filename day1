@@ -1,0 +1,42 @@
+# Day 1: Strings, Input and Output in Python
+
+# Printing a simple string
+print("Hello World!")
+
+# Printing multiple lines using the newline character (\n)
+print("Hello world!\nHello world!")
+
+# String concatenation using the + operator
+print("Hello" + " " + "Angela")
+
+# Taking user input and concatenating it with a string
+print("Hello " + input("What is your name? ") + "!")
+
+# Getting user input and storing it in a variable
+username = input("What is your name? ")
+
+# Using the len() function to find the length of the string
+length = len(username)
+
+# Printing the length of the user's name
+print(length)
+
+# -----------------------------
+# Mini Project: Band Name Generator
+# -----------------------------
+
+# Ask for user's name
+name = input("What is your name?\n")
+print("Hello " + name + ", welcome to the Band Name Generator!")
+
+# Ask for the city the user grew up in
+hometown = input("What is the name of the city you grew up in?\n")
+
+# Ask for the user's pet name
+pet = input("What is the name of your pet?\n")
+
+# Combine pet name and hometown to create a band name
+band_name = pet + " " + hometown
+
+# Display the generated band name
+print("Your band name is:", band_name)
