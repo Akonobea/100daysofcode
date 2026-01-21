@@ -67,7 +67,8 @@ Each day contains code, notes, and small exercises or mini-projects.
 
 ## Tools Used
 - Python
-- Jupyter Notebook
+-Pycharm
+-Jupyter Notebook
 - Pandas & NumPy
 - Matplotlib / Seaborn
 - Git & GitHub
